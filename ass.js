@@ -46,7 +46,3 @@ for (n=0;n<=1;n++)
 {
     console.log ("1 ")
 }
-for (i=2;i<= n ; i++)
-{
-    value = 
-}
