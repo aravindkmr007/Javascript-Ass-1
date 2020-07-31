@@ -22,7 +22,8 @@ M = M-N
 console.log( "M is  " + M)
 console.log("N is  " + N)
 //Assignment 4 for factorial
-p = window.prompt("Enter the value of n to find the factorial")
+
+p = 5
 result =1;
 while (p > 1)
 {
@@ -30,6 +31,7 @@ while (p > 1)
     p--  
 }
 document.write(result);
+
 //Assignment 5 is leap year
 year = 2016 
 if (year%4 == 0 || year%100 == 0)
@@ -41,8 +43,47 @@ else
     console.log ("The given year is not a leap year")
 }
 //Assignment 6 
-n= 2;
-for (n=0;n<=1;n++)
+n=10
+n1=0
+n2=1
+console.log(n1)
+console.log(n2)
+for(i=3;i<n;i++)
+{    
+ n3=n1+n2;    
+ console.log (" "+n3);    
+ n1=n2;    
+ n2=n3;    
+}    
+//Assignment 7
+d=10
+e=10
+f=0
+operation = window.prompt(" Enter the Operation")
+
+switch (operation) 
 {
-    console.log ("1 ")
+    case "+":
+        f=d+e;
+        break;
+    case "-" :
+        f=d-e;
+        break;
+    case "*" :
+        f=d*e;
+        break;
+    case "/" :
+        f=d/e;
+        break;
+    case "%" :
+        f=d%e;
+        break;
+    default :
+
+        console.log("Enter the correct opration");
+        break;
+
+
+
 }
+console.log(f);
