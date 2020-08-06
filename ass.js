@@ -81,8 +81,14 @@ switch (operation)
         break;
     default :
 
+<<<<<<< HEAD
     console.log("Enter the correct opration");
     break;
+=======
+        console.log("Enter the correct opration");
+        break;
+
+>>>>>>> b6804e6cd96841542fbd3c7de0ab851f85a3443c
 
 
 }
