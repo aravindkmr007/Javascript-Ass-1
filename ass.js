@@ -2,6 +2,7 @@
 var N1=18;
 var N2=6;
 add = (N1+N2);
+document.write.getelementbyid(hi).replace(add)
 mulitply = (N1*N2);
 Division = (N1/N2);
 Reminder = (N1%N2);
@@ -80,9 +81,8 @@ switch (operation)
         break;
     default :
 
-        console.log("Enter the correct opration");
-        break;
-
+    console.log("Enter the correct opration");
+    break;
 
 
 }
